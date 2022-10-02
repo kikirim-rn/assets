@@ -1,9 +1,9 @@
-import '../common_github_app.dart';
+import 'package:common_github_app/common_github_app.dart';
 
-class Githubache {
+class GithubCache {
   final _cache = <String, SearchResult>{};
   SearchResult? get(String term) => _cache[term];
-  void set(String term, SearchResult result) => _cache[term] = result;
-  contains(String term) => _cache.containsKey(term);
-  remove(String term) => _cache.remove(term);
+  void set(String term, SearchResult results) => _cache[term] = results;
+  bool contains(String term) => _cache.containsKey(term);
+  void remove(String term) => _cache.remove(term);
 }

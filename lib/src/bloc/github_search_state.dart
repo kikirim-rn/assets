@@ -1,5 +1,5 @@
+import 'package:common_github_app/common_github_app.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import '../../common_github_app.dart';
 
 part 'github_search_state.freezed.dart';
 
@@ -9,6 +9,6 @@ class GithubSearchState with _$GithubSearchState {
   const factory GithubSearchState.loading() = _GithubSearchStateLoading;
   const factory GithubSearchState.error({required String error}) =
       _GithubSearchStateError;
-  const factory GithubSearchState.succes(
-      {required List<SearchResultItem> items}) = _GithubSearchStateSucces;
+  const factory GithubSearchState.success(
+      {required List<SearchResultItem> items}) = _GithubSearchStateSuccess;
 }

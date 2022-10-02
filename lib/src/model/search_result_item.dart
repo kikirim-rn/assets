@@ -1,6 +1,5 @@
+import 'package:common_github_app/common_github_app.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import '../../common_github_app.dart';
-
 part 'search_result_item.freezed.dart';
 part 'search_result_item.g.dart';
 

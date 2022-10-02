@@ -21,7 +21,7 @@ mixin _$GithubSearchState {
     required TResult Function() empty,
     required TResult Function() loading,
     required TResult Function(String error) error,
-    required TResult Function(List<SearchResultItem> items) succes,
+    required TResult Function(List<SearchResultItem> items) success,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -29,7 +29,7 @@ mixin _$GithubSearchState {
     TResult Function()? empty,
     TResult Function()? loading,
     TResult Function(String error)? error,
-    TResult Function(List<SearchResultItem> items)? succes,
+    TResult Function(List<SearchResultItem> items)? success,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -37,7 +37,7 @@ mixin _$GithubSearchState {
     TResult Function()? empty,
     TResult Function()? loading,
     TResult Function(String error)? error,
-    TResult Function(List<SearchResultItem> items)? succes,
+    TResult Function(List<SearchResultItem> items)? success,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -46,7 +46,7 @@ mixin _$GithubSearchState {
     required TResult Function(_GithubSearchStateEmpty value) empty,
     required TResult Function(_GithubSearchStateLoading value) loading,
     required TResult Function(_GithubSearchStateError value) error,
-    required TResult Function(_GithubSearchStateSucces value) succes,
+    required TResult Function(_GithubSearchStateSuccess value) success,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -54,7 +54,7 @@ mixin _$GithubSearchState {
     TResult Function(_GithubSearchStateEmpty value)? empty,
     TResult Function(_GithubSearchStateLoading value)? loading,
     TResult Function(_GithubSearchStateError value)? error,
-    TResult Function(_GithubSearchStateSucces value)? succes,
+    TResult Function(_GithubSearchStateSuccess value)? success,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -62,7 +62,7 @@ mixin _$GithubSearchState {
     TResult Function(_GithubSearchStateEmpty value)? empty,
     TResult Function(_GithubSearchStateLoading value)? loading,
     TResult Function(_GithubSearchStateError value)? error,
-    TResult Function(_GithubSearchStateSucces value)? succes,
+    TResult Function(_GithubSearchStateSuccess value)? success,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -131,7 +131,7 @@ class _$_GithubSearchStateEmpty implements _GithubSearchStateEmpty {
     required TResult Function() empty,
     required TResult Function() loading,
     required TResult Function(String error) error,
-    required TResult Function(List<SearchResultItem> items) succes,
+    required TResult Function(List<SearchResultItem> items) success,
   }) {
     return empty();
   }
@@ -142,7 +142,7 @@ class _$_GithubSearchStateEmpty implements _GithubSearchStateEmpty {
     TResult Function()? empty,
     TResult Function()? loading,
     TResult Function(String error)? error,
-    TResult Function(List<SearchResultItem> items)? succes,
+    TResult Function(List<SearchResultItem> items)? success,
   }) {
     return empty?.call();
   }
@@ -153,7 +153,7 @@ class _$_GithubSearchStateEmpty implements _GithubSearchStateEmpty {
     TResult Function()? empty,
     TResult Function()? loading,
     TResult Function(String error)? error,
-    TResult Function(List<SearchResultItem> items)? succes,
+    TResult Function(List<SearchResultItem> items)? success,
     required TResult orElse(),
   }) {
     if (empty != null) {
@@ -168,7 +168,7 @@ class _$_GithubSearchStateEmpty implements _GithubSearchStateEmpty {
     required TResult Function(_GithubSearchStateEmpty value) empty,
     required TResult Function(_GithubSearchStateLoading value) loading,
     required TResult Function(_GithubSearchStateError value) error,
-    required TResult Function(_GithubSearchStateSucces value) succes,
+    required TResult Function(_GithubSearchStateSuccess value) success,
   }) {
     return empty(this);
   }
@@ -179,7 +179,7 @@ class _$_GithubSearchStateEmpty implements _GithubSearchStateEmpty {
     TResult Function(_GithubSearchStateEmpty value)? empty,
     TResult Function(_GithubSearchStateLoading value)? loading,
     TResult Function(_GithubSearchStateError value)? error,
-    TResult Function(_GithubSearchStateSucces value)? succes,
+    TResult Function(_GithubSearchStateSuccess value)? success,
   }) {
     return empty?.call(this);
   }
@@ -190,7 +190,7 @@ class _$_GithubSearchStateEmpty implements _GithubSearchStateEmpty {
     TResult Function(_GithubSearchStateEmpty value)? empty,
     TResult Function(_GithubSearchStateLoading value)? loading,
     TResult Function(_GithubSearchStateError value)? error,
-    TResult Function(_GithubSearchStateSucces value)? succes,
+    TResult Function(_GithubSearchStateSuccess value)? success,
     required TResult orElse(),
   }) {
     if (empty != null) {
@@ -251,7 +251,7 @@ class _$_GithubSearchStateLoading implements _GithubSearchStateLoading {
     required TResult Function() empty,
     required TResult Function() loading,
     required TResult Function(String error) error,
-    required TResult Function(List<SearchResultItem> items) succes,
+    required TResult Function(List<SearchResultItem> items) success,
   }) {
     return loading();
   }
@@ -262,7 +262,7 @@ class _$_GithubSearchStateLoading implements _GithubSearchStateLoading {
     TResult Function()? empty,
     TResult Function()? loading,
     TResult Function(String error)? error,
-    TResult Function(List<SearchResultItem> items)? succes,
+    TResult Function(List<SearchResultItem> items)? success,
   }) {
     return loading?.call();
   }
@@ -273,7 +273,7 @@ class _$_GithubSearchStateLoading implements _GithubSearchStateLoading {
     TResult Function()? empty,
     TResult Function()? loading,
     TResult Function(String error)? error,
-    TResult Function(List<SearchResultItem> items)? succes,
+    TResult Function(List<SearchResultItem> items)? success,
     required TResult orElse(),
   }) {
     if (loading != null) {
@@ -288,7 +288,7 @@ class _$_GithubSearchStateLoading implements _GithubSearchStateLoading {
     required TResult Function(_GithubSearchStateEmpty value) empty,
     required TResult Function(_GithubSearchStateLoading value) loading,
     required TResult Function(_GithubSearchStateError value) error,
-    required TResult Function(_GithubSearchStateSucces value) succes,
+    required TResult Function(_GithubSearchStateSuccess value) success,
   }) {
     return loading(this);
   }
@@ -299,7 +299,7 @@ class _$_GithubSearchStateLoading implements _GithubSearchStateLoading {
     TResult Function(_GithubSearchStateEmpty value)? empty,
     TResult Function(_GithubSearchStateLoading value)? loading,
     TResult Function(_GithubSearchStateError value)? error,
-    TResult Function(_GithubSearchStateSucces value)? succes,
+    TResult Function(_GithubSearchStateSuccess value)? success,
   }) {
     return loading?.call(this);
   }
@@ -310,7 +310,7 @@ class _$_GithubSearchStateLoading implements _GithubSearchStateLoading {
     TResult Function(_GithubSearchStateEmpty value)? empty,
     TResult Function(_GithubSearchStateLoading value)? loading,
     TResult Function(_GithubSearchStateError value)? error,
-    TResult Function(_GithubSearchStateSucces value)? succes,
+    TResult Function(_GithubSearchStateSuccess value)? success,
     required TResult orElse(),
   }) {
     if (loading != null) {
@@ -394,7 +394,7 @@ class _$_GithubSearchStateError implements _GithubSearchStateError {
     required TResult Function() empty,
     required TResult Function() loading,
     required TResult Function(String error) error,
-    required TResult Function(List<SearchResultItem> items) succes,
+    required TResult Function(List<SearchResultItem> items) success,
   }) {
     return error(this.error);
   }
@@ -405,7 +405,7 @@ class _$_GithubSearchStateError implements _GithubSearchStateError {
     TResult Function()? empty,
     TResult Function()? loading,
     TResult Function(String error)? error,
-    TResult Function(List<SearchResultItem> items)? succes,
+    TResult Function(List<SearchResultItem> items)? success,
   }) {
     return error?.call(this.error);
   }
@@ -416,7 +416,7 @@ class _$_GithubSearchStateError implements _GithubSearchStateError {
     TResult Function()? empty,
     TResult Function()? loading,
     TResult Function(String error)? error,
-    TResult Function(List<SearchResultItem> items)? succes,
+    TResult Function(List<SearchResultItem> items)? success,
     required TResult orElse(),
   }) {
     if (error != null) {
@@ -431,7 +431,7 @@ class _$_GithubSearchStateError implements _GithubSearchStateError {
     required TResult Function(_GithubSearchStateEmpty value) empty,
     required TResult Function(_GithubSearchStateLoading value) loading,
     required TResult Function(_GithubSearchStateError value) error,
-    required TResult Function(_GithubSearchStateSucces value) succes,
+    required TResult Function(_GithubSearchStateSuccess value) success,
   }) {
     return error(this);
   }
@@ -442,7 +442,7 @@ class _$_GithubSearchStateError implements _GithubSearchStateError {
     TResult Function(_GithubSearchStateEmpty value)? empty,
     TResult Function(_GithubSearchStateLoading value)? loading,
     TResult Function(_GithubSearchStateError value)? error,
-    TResult Function(_GithubSearchStateSucces value)? succes,
+    TResult Function(_GithubSearchStateSuccess value)? success,
   }) {
     return error?.call(this);
   }
@@ -453,7 +453,7 @@ class _$_GithubSearchStateError implements _GithubSearchStateError {
     TResult Function(_GithubSearchStateEmpty value)? empty,
     TResult Function(_GithubSearchStateLoading value)? loading,
     TResult Function(_GithubSearchStateError value)? error,
-    TResult Function(_GithubSearchStateSucces value)? succes,
+    TResult Function(_GithubSearchStateSuccess value)? success,
     required TResult orElse(),
   }) {
     if (error != null) {
@@ -474,30 +474,31 @@ abstract class _GithubSearchStateError implements GithubSearchState {
 }
 
 /// @nodoc
-abstract class _$$_GithubSearchStateSuccesCopyWith<$Res> {
-  factory _$$_GithubSearchStateSuccesCopyWith(_$_GithubSearchStateSucces value,
-          $Res Function(_$_GithubSearchStateSucces) then) =
-      __$$_GithubSearchStateSuccesCopyWithImpl<$Res>;
+abstract class _$$_GithubSearchStateSuccessCopyWith<$Res> {
+  factory _$$_GithubSearchStateSuccessCopyWith(
+          _$_GithubSearchStateSuccess value,
+          $Res Function(_$_GithubSearchStateSuccess) then) =
+      __$$_GithubSearchStateSuccessCopyWithImpl<$Res>;
   $Res call({List<SearchResultItem> items});
 }
 
 /// @nodoc
-class __$$_GithubSearchStateSuccesCopyWithImpl<$Res>
+class __$$_GithubSearchStateSuccessCopyWithImpl<$Res>
     extends _$GithubSearchStateCopyWithImpl<$Res>
-    implements _$$_GithubSearchStateSuccesCopyWith<$Res> {
-  __$$_GithubSearchStateSuccesCopyWithImpl(_$_GithubSearchStateSucces _value,
-      $Res Function(_$_GithubSearchStateSucces) _then)
-      : super(_value, (v) => _then(v as _$_GithubSearchStateSucces));
+    implements _$$_GithubSearchStateSuccessCopyWith<$Res> {
+  __$$_GithubSearchStateSuccessCopyWithImpl(_$_GithubSearchStateSuccess _value,
+      $Res Function(_$_GithubSearchStateSuccess) _then)
+      : super(_value, (v) => _then(v as _$_GithubSearchStateSuccess));
 
   @override
-  _$_GithubSearchStateSucces get _value =>
-      super._value as _$_GithubSearchStateSucces;
+  _$_GithubSearchStateSuccess get _value =>
+      super._value as _$_GithubSearchStateSuccess;
 
   @override
   $Res call({
     Object? items = freezed,
   }) {
-    return _then(_$_GithubSearchStateSucces(
+    return _then(_$_GithubSearchStateSuccess(
       items: items == freezed
           ? _value._items
           : items // ignore: cast_nullable_to_non_nullable
@@ -508,8 +509,8 @@ class __$$_GithubSearchStateSuccesCopyWithImpl<$Res>
 
 /// @nodoc
 
-class _$_GithubSearchStateSucces implements _GithubSearchStateSucces {
-  const _$_GithubSearchStateSucces(
+class _$_GithubSearchStateSuccess implements _GithubSearchStateSuccess {
+  const _$_GithubSearchStateSuccess(
       {required final List<SearchResultItem> items})
       : _items = items;
 
@@ -522,14 +523,14 @@ class _$_GithubSearchStateSucces implements _GithubSearchStateSucces {
 
   @override
   String toString() {
-    return 'GithubSearchState.succes(items: $items)';
+    return 'GithubSearchState.success(items: $items)';
   }
 
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$_GithubSearchStateSucces &&
+            other is _$_GithubSearchStateSuccess &&
             const DeepCollectionEquality().equals(other._items, _items));
   }
 
@@ -539,10 +540,9 @@ class _$_GithubSearchStateSucces implements _GithubSearchStateSucces {
 
   @JsonKey(ignore: true)
   @override
-  _$$_GithubSearchStateSuccesCopyWith<_$_GithubSearchStateSucces>
-      get copyWith =>
-          __$$_GithubSearchStateSuccesCopyWithImpl<_$_GithubSearchStateSucces>(
-              this, _$identity);
+  _$$_GithubSearchStateSuccessCopyWith<_$_GithubSearchStateSuccess>
+      get copyWith => __$$_GithubSearchStateSuccessCopyWithImpl<
+          _$_GithubSearchStateSuccess>(this, _$identity);
 
   @override
   @optionalTypeArgs
@@ -550,9 +550,9 @@ class _$_GithubSearchStateSucces implements _GithubSearchStateSucces {
     required TResult Function() empty,
     required TResult Function() loading,
     required TResult Function(String error) error,
-    required TResult Function(List<SearchResultItem> items) succes,
+    required TResult Function(List<SearchResultItem> items) success,
   }) {
-    return succes(items);
+    return success(items);
   }
 
   @override
@@ -561,9 +561,9 @@ class _$_GithubSearchStateSucces implements _GithubSearchStateSucces {
     TResult Function()? empty,
     TResult Function()? loading,
     TResult Function(String error)? error,
-    TResult Function(List<SearchResultItem> items)? succes,
+    TResult Function(List<SearchResultItem> items)? success,
   }) {
-    return succes?.call(items);
+    return success?.call(items);
   }
 
   @override
@@ -572,11 +572,11 @@ class _$_GithubSearchStateSucces implements _GithubSearchStateSucces {
     TResult Function()? empty,
     TResult Function()? loading,
     TResult Function(String error)? error,
-    TResult Function(List<SearchResultItem> items)? succes,
+    TResult Function(List<SearchResultItem> items)? success,
     required TResult orElse(),
   }) {
-    if (succes != null) {
-      return succes(items);
+    if (success != null) {
+      return success(items);
     }
     return orElse();
   }
@@ -587,9 +587,9 @@ class _$_GithubSearchStateSucces implements _GithubSearchStateSucces {
     required TResult Function(_GithubSearchStateEmpty value) empty,
     required TResult Function(_GithubSearchStateLoading value) loading,
     required TResult Function(_GithubSearchStateError value) error,
-    required TResult Function(_GithubSearchStateSucces value) succes,
+    required TResult Function(_GithubSearchStateSuccess value) success,
   }) {
-    return succes(this);
+    return success(this);
   }
 
   @override
@@ -598,9 +598,9 @@ class _$_GithubSearchStateSucces implements _GithubSearchStateSucces {
     TResult Function(_GithubSearchStateEmpty value)? empty,
     TResult Function(_GithubSearchStateLoading value)? loading,
     TResult Function(_GithubSearchStateError value)? error,
-    TResult Function(_GithubSearchStateSucces value)? succes,
+    TResult Function(_GithubSearchStateSuccess value)? success,
   }) {
-    return succes?.call(this);
+    return success?.call(this);
   }
 
   @override
@@ -609,23 +609,23 @@ class _$_GithubSearchStateSucces implements _GithubSearchStateSucces {
     TResult Function(_GithubSearchStateEmpty value)? empty,
     TResult Function(_GithubSearchStateLoading value)? loading,
     TResult Function(_GithubSearchStateError value)? error,
-    TResult Function(_GithubSearchStateSucces value)? succes,
+    TResult Function(_GithubSearchStateSuccess value)? success,
     required TResult orElse(),
   }) {
-    if (succes != null) {
-      return succes(this);
+    if (success != null) {
+      return success(this);
     }
     return orElse();
   }
 }
 
-abstract class _GithubSearchStateSucces implements GithubSearchState {
-  const factory _GithubSearchStateSucces(
+abstract class _GithubSearchStateSuccess implements GithubSearchState {
+  const factory _GithubSearchStateSuccess(
           {required final List<SearchResultItem> items}) =
-      _$_GithubSearchStateSucces;
+      _$_GithubSearchStateSuccess;
 
   List<SearchResultItem> get items;
   @JsonKey(ignore: true)
-  _$$_GithubSearchStateSuccesCopyWith<_$_GithubSearchStateSucces>
+  _$$_GithubSearchStateSuccessCopyWith<_$_GithubSearchStateSuccess>
       get copyWith => throw _privateConstructorUsedError;
 }

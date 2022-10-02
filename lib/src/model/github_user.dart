@@ -5,9 +5,9 @@ part 'github_user.g.dart';
 
 typedef GithubUserMap = Map<String, dynamic>;
 
-@JsonSerializable(explicitToJson: false)
 @freezed
 class GithubUser with _$GithubUser {
+  @JsonSerializable(explicitToJson: false)
   const factory GithubUser(
       {@JsonKey(name: 'login') required String loginName,
       @JsonKey(name: 'avatar_url') required String avatarUrl}) = _GithubUser;

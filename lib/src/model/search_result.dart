@@ -1,4 +1,4 @@
-import '../../common_github_app.dart';
+import 'package:common_github_app/common_github_app.dart';
 
 typedef SearchResultMap = Map<String, dynamic>;
 
@@ -7,12 +7,11 @@ class SearchResult {
 
   const SearchResult({required this.items});
 
-  factory SearchResult.fromJson(SearchResultMap json) {
+  static SearchResult fromJson(SearchResultMap json) {
     final items = (json['items'] as List<dynamic>)
         .map((dynamic item) =>
-            SearchResultItem.fromJson(item as SearchResultMap))
+            SearchResultItem.fromJson(item as SearchResultItemMap))
         .toList();
-
     return SearchResult(items: items);
   }
 }

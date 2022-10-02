@@ -108,7 +108,8 @@ class __$$_GithubUserCopyWithImpl<$Res> extends _$GithubUserCopyWithImpl<$Res>
 }
 
 /// @nodoc
-@JsonSerializable()
+
+@JsonSerializable(explicitToJson: false)
 class _$_GithubUser implements _GithubUser {
   const _$_GithubUser(
       {@JsonKey(name: 'login') required this.loginName,
